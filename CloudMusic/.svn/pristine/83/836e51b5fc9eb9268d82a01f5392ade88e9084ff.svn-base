@@ -1,0 +1,27 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic.activity;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class MusicSettingFragment$$ViewBinder<T extends com.example.administrator.cloudmusic.activity.MusicSettingFragment> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558541, "field 'lvMusicSettingCategory'");
+    target.lvMusicSettingCategory = finder.castView(view, 2131558541, "field 'lvMusicSettingCategory'");
+    view = finder.findRequiredView(source, 2131558542, "field 'lvSettingContent'");
+    target.lvSettingContent = finder.castView(view, 2131558542, "field 'lvSettingContent'");
+    view = finder.findRequiredView(source, 2131558538, "field 'ivSettingMusicClose'");
+    target.ivSettingMusicClose = finder.castView(view, 2131558538, "field 'ivSettingMusicClose'");
+    view = finder.findRequiredView(source, 2131558540, "field 'btnComplete'");
+    target.btnComplete = finder.castView(view, 2131558540, "field 'btnComplete'");
+  }
+
+  @Override public void unbind(T target) {
+    target.lvMusicSettingCategory = null;
+    target.lvSettingContent = null;
+    target.ivSettingMusicClose = null;
+    target.btnComplete = null;
+  }
+}

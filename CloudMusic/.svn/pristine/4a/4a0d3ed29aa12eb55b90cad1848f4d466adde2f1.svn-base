@@ -1,0 +1,18 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class MusicListFragment$$ViewBinder<T extends com.example.administrator.cloudmusic.fragment.MusicListFragment> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558556, "field 'gvMusicCategory'");
+    target.gvMusicCategory = finder.castView(view, 2131558556, "field 'gvMusicCategory'");
+  }
+
+  @Override public void unbind(T target) {
+    target.gvMusicCategory = null;
+  }
+}

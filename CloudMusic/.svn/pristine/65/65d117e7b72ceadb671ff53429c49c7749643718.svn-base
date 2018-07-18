@@ -1,0 +1,60 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.cloudmusic.fragment.SearchMainFragment">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="90%">
+
+        <TextView
+            android:id="@+id/tv_hot_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_search"
+            android:textSize="@dimen/text_25" />
+
+        <!--<TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nihao"
+            android:textSize="@dimen/space_25"
+            app:layout_marginTopPercent="15%" />-->
+    </android.support.percent.PercentRelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/history_search"
+        android:textSize="@dimen/text_25"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="40%" />
+
+    <Button
+        android:id="@+id/btn_delete_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/delect_all"
+        android:textSize="@dimen/text_25"
+        android:background="@null"
+        app:layout_marginRightPercent="5%"
+        app:layout_marginTopPercent="46%" />
+
+    <ListView
+        android:id="@+id/lv_history_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:layout_heightPercent="45%"
+        app:layout_marginTopPercent="45%"
+        app:layout_widthPercent="90%"></ListView>
+
+</android.support.percent.PercentRelativeLayout>

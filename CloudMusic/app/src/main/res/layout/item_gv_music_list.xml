@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.jinxin.cloudmusic.view.DemoGridView
+        android:id="@+id/gv_music_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:layout_centerHorizontal="true"
+        android:horizontalSpacing="@dimen/space_10"
+        android:focusable="true"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/space_10"
+        app:layout_widthPercent="96%"
+        ></com.jinxin.cloudmusic.view.DemoGridView>
+</android.support.percent.PercentRelativeLayout>

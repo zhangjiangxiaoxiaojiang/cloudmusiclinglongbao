@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_300">
+
+    <TextView
+        android:id="@+id/tv_music_setting_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_100"
+        android:layout_marginTop="@dimen/space_28"
+        android:textSize="@dimen/text_25" />
+
+    <ImageView
+        android:id="@+id/iv_music_setting_detail"
+        android:layout_width="@dimen/space_50"
+        android:layout_height="@dimen/space_50"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/space_120"
+        android:background="@drawable/speaker_unchecked" />
+
+</RelativeLayout>

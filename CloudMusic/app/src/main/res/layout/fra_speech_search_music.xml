@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/play_interface_background">
+
+    <ImageView
+        android:id="@+id/iv_speech_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:scaleType="fitStart"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="4%" />
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/et_info_speech_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:descendantFocusability="afterDescendants"
+        android:dividerHeight="@dimen/space_1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="70%">
+
+
+        <EditText
+            android:id="@+id/et_info_speech_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:autoText="true"
+            android:textSize="@dimen/text_25"
+            android:background="@drawable/search_box"
+            app:layout_marginLeftPercent="3%"
+            app:layout_widthPercent="90%"></EditText>
+
+        <com.jinxin.cloudmusic.view.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_info_speech_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:src="@drawable/search"
+                app:layout_heightPercent="50%"
+                app:layout_marginTopPercent="3%"
+                app:layout_widthPercent="20%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_all"
+                android:textColor="@color/darkgrey"
+                android:textSize="@dimen/space_20" />
+        </com.jinxin.cloudmusic.view.PercentLinearLayout>
+        <ImageView
+            android:id="@+id/iv_speech_search_delete"
+            android:layout_width="@dimen/space_25"
+            android:layout_height="@dimen/space_25"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/space_50"
+            android:layout_centerVertical="true"
+            android:src="@drawable/play_delete" />
+    </android.support.percent.PercentRelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:background="@drawable/line"
+        app:layout_marginTopPercent="12%" />
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/et_info_speech_search"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="3%">
+
+        <Button
+            android:id="@+id/btn_speech_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_25" />
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/fl_main_speech_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_marginTopPercent="15%">
+        <TextView
+            android:id="@+id/tv_speech_search_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_30"
+            android:text="@string/single_song"
+            android:textColor="@color/white"
+            app:layout_marginLeftPercent="33%"/>
+        <TextView
+            android:id="@+id/tv_speech_search_songer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_30"
+            android:layout_toRightOf="@id/tv_speech_search_song"
+            android:text="@string/songer"
+            android:textColor="@color/darkgrey"
+            app:layout_marginLeftPercent="33%"/>
+        <ImageView
+            android:id="@+id/iv_speech_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_heightPercent="15%"
+            app:layout_marginLeftPercent="6%"
+            app:layout_widthPercent="6%"
+            app:layout_marginTopPercent="10%"/>
+        <ImageView
+            android:id="@+id/iv_speech_search_state"
+            android:layout_width="@dimen/space_30"
+            android:layout_height="@dimen/space_30"
+            app:layout_marginTopPercent="15%"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/search_state"
+            app:layout_marginRightPercent="3%"/>
+        <TextView
+            android:id="@+id/tv_speech_search_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music_name"
+            android:textSize="@dimen/text_25"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            app:layout_marginLeftPercent="33%"
+            app:layout_marginTopPercent="15%"/>
+        <TextView
+            android:id="@+id/tv_speeech_search_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_speech_search_song"
+            android:text="歌手"
+            android:textSize="@dimen/text_25"
+            android:singleLine="true"
+            android:ellipsize="end"
+            app:layout_marginLeftPercent="33%"
+            app:layout_marginTopPercent="15%"/>
+        <TextView
+            android:id="@+id/tv_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_1"
+            android:textColor="@color/darkgrey"
+            android:layout_below="@id/iv_speech_artist"/>
+        <ListView
+            android:id="@+id/lv_speech_search_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_line"></ListView>
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

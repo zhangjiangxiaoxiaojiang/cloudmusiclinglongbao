@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_my_music_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        app:layout_heightPercent="25%"
+        app:layout_marginLeftPercent="2%"
+        app:layout_widthPercent="10%" />
+
+    <TextView
+        android:id="@+id/tv_my_music_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_my_music_detail"
+        android:text="经典歌曲"
+        android:textSize="@dimen/text_20"
+        app:layout_marginLeftPercent="2%" />
+
+    <TextView
+        android:id="@+id/tv_my_music_introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_my_music_type"
+        android:layout_toRightOf="@id/iv_my_music_detail"
+        android:text=""
+        android:textSize="@dimen/text_15"
+        app:layout_marginLeftPercent="2%" />
+    <!--<Button
+        android:layout_width="@dimen/space_100"
+        android:layout_height="@dimen/space_50"
+        android:text="全部播放"
+        app:layout_marginLeftPercent="2%"
+        android:layout_toRightOf="@id/iv_my_music_detail"
+        android:layout_below="@id/tv_my_music_introduce"
+        android:background="@drawable/all_play"/>-->
+    <LinearLayout
+        android:id="@+id/ll_all_play"
+        android:layout_width="@dimen/space_91"
+        android:layout_height="@dimen/space_38"
+        android:layout_below="@id/tv_my_music_introduce"
+        android:layout_toRightOf="@id/iv_my_music_detail"
+        android:layout_marginTop="@dimen/space_6"
+        android:background="@drawable/all_play"
+        android:orientation="horizontal"
+        app:layout_marginLeftPercent="2%">
+
+        <ImageView
+            android:layout_width="@dimen/space_20"
+            android:layout_height="@dimen/space_20"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/space_8"
+            android:src="@drawable/detail_all_play" />
+
+        <Button
+            android:id="@+id/bt_all_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_12"
+            android:background="@null"
+            android:text="全部播放" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_all_download"
+        android:layout_width="@dimen/space_100"
+        android:layout_height="@dimen/space_50"
+        android:layout_below="@id/tv_my_music_introduce"
+        android:layout_toRightOf="@id/ll_all_play"
+        android:layout_marginTop="@dimen/space_0"
+        android:textSize="@dimen/text_12"
+        android:text="下载"
+        app:layout_marginLeftPercent="2%" />
+
+    <Button
+        android:id="@+id/bt_all_collection"
+        android:layout_width="@dimen/space_100"
+        android:layout_height="@dimen/space_50"
+        android:layout_below="@id/tv_my_music_introduce"
+        android:layout_toRightOf="@id/bt_all_download"
+        android:layout_marginTop="@dimen/space_0"
+        android:textSize="@dimen/text_12"
+        android:text="@string/collection"
+        app:layout_marginLeftPercent="2%" />
+
+    <ListView
+        android:id="@+id/lv_music_list_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_heightPercent="70%"
+        app:layout_marginLeftPercent="2%"
+        app:layout_marginRightPercent="2%"
+        app:layout_marginTopPercent="30%"></ListView>
+</android.support.percent.PercentRelativeLayout>

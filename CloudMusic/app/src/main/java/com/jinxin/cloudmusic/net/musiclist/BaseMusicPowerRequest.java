@@ -1,0 +1,45 @@
+package com.jinxin.cloudmusic.net.musiclist;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.android.volley.NetworkResponse;
+import com.android.volley.ParseError;
+import com.android.volley.Response;
+import com.android.volley.toolbox.HttpHeaderParser;
+import com.android.volley.toolbox.JsonRequest;
+import com.jinxin.cloudmusic.util.L;
+
+import java.io.UnsupportedEncodingException;
+
+/**
+ * Created by XTER on 2017/2/28.
+ * 音乐请求基类
+ */
+public class BaseMusicPowerRequest extends JsonRequest<JSONObject> {
+
+	public BaseMusicPowerRequest(int method, String url, String requestBody, Response.Listener<JSONObject> listener, Response.ErrorListener errorListener) {
+		super(method, url, requestBody, listener, errorListener);
+		if (requestBody!=null) {
+			L.e(url + requestBody);
+		}else {
+			L.e(url);
+		}
+	}
+
+	@Override
+	protected Response<JSONObject> parseNetworkResponse(NetworkResponse response) {
+		try {
+			String content = new String(response.data
+					/*HttpHeaderParser.parseCharset(response.headers, "Unicode")*/,"UTF-8");
+			//String jsonString = content.substring(content.indexOf("(") + 1, content.lastIndexOf(")"));
+			JSONObject jsonObject=JSON.parseObject(content);
+			return Response.success(JSON.parseObject(content),
+					HttpHeaderParser.parseCacheHeaders(response));
+		} catch (UnsupportedEncodingException e) {
+			return Response.error(new ParseError(e));
+		} catch (Exception e) {
+			e.printStackTrace();
+			return Response.error(new ParseError(e));
+		}
+	}
+}

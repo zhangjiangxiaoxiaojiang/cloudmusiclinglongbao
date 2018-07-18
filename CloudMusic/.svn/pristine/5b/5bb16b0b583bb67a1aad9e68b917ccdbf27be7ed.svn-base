@@ -1,0 +1,77 @@
+package com.example.administrator.cloudmusic.bean;
+
+import com.litesuits.orm.db.annotation.Table;
+
+//当前账号下的设备明细
+@Table("whId")
+public class AcountProduct extends BaseModel {
+    private int id;
+
+    private String codeName;
+
+    private String customerId;
+
+    private String whId;
+
+    private int refId;
+
+    private String code;
+
+    private String orderId;
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    public void setCodeName(String codeName) {
+        this.codeName = codeName;
+    }
+
+    public String getCodeName() {
+        return this.codeName;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
+
+    public String getCustomerId() {
+        return this.customerId;
+    }
+
+    public void setWhId(String whId) {
+        this.whId = whId;
+    }
+
+    public String getWhId() {
+        return this.whId;
+    }
+
+    public void setRefId(int refId) {
+        this.refId = refId;
+    }
+
+    public int getRefId() {
+        return this.refId;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getCode() {
+        return this.code;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public String getOrderId() {
+        return this.orderId;
+    }
+}

@@ -1,0 +1,52 @@
+package com.example.administrator.cloudmusic.util;
+
+import android.view.View;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+/**
+ * Created by ZJ on 2017/3/16 0016.
+ * @Desciption: 只能读取文本文件，读取mp3文件会出现内存溢出现象
+ */
+public class DownFileClickListener implements View.OnClickListener {
+    @Override
+    public void onClick(View v) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String urlStr="http://musicdata.baidu.com/data2/lrc/4554a69967b785807bd0b52732d6d3f0/523150863/523150863.lrc";
+                try {
+                /*
+                 * 通过URL取得HttpURLConnection
+                 * 要网络连接成功，需在AndroidMainfest.xml中进行权限配置
+                 * <uses-permission android:name="android.permission.INTERNET" />
+                 */
+                    URL url=new URL(urlStr);
+                    HttpURLConnection conn=(HttpURLConnection)url.openConnection();
+                    conn.setConnectTimeout(3000);
+                    //取得inputStream，并进行读取
+                    InputStream input=conn.getInputStream();
+                    BufferedReader in=new BufferedReader(new InputStreamReader(input));
+                    String line=null;
+                    StringBuffer sb=new StringBuffer();
+                    while((line=in.readLine())!=null){
+                        sb.append(line);
+                    }
+                    System.out.println(sb.toString());
+
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+
+    }
+}

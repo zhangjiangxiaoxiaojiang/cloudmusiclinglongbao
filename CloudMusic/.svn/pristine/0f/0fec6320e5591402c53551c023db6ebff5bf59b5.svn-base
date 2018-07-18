@@ -1,0 +1,66 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic.activity;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class PlayInterfaceFragment$$ViewBinder<T extends com.example.administrator.cloudmusic.activity.PlayInterfaceFragment> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558498, "field 'ivCurrentMusic'");
+    target.ivCurrentMusic = finder.castView(view, 2131558498, "field 'ivCurrentMusic'");
+    view = finder.findRequiredView(source, 2131558505, "field 'tvPlayMusicName'");
+    target.tvPlayMusicName = finder.castView(view, 2131558505, "field 'tvPlayMusicName'");
+    view = finder.findRequiredView(source, 2131558506, "field 'tvSongerName'");
+    target.tvSongerName = finder.castView(view, 2131558506, "field 'tvSongerName'");
+    view = finder.findRequiredView(source, 2131558509, "field 'btnMusicInterfaceLast'");
+    target.btnMusicInterfaceLast = finder.castView(view, 2131558509, "field 'btnMusicInterfaceLast'");
+    view = finder.findRequiredView(source, 2131558510, "field 'btnMusicInterfaceNext'");
+    target.btnMusicInterfaceNext = finder.castView(view, 2131558510, "field 'btnMusicInterfaceNext'");
+    view = finder.findRequiredView(source, 2131558482, "field 'ivBack'");
+    target.ivBack = finder.castView(view, 2131558482, "field 'ivBack'");
+    view = finder.findRequiredView(source, 2131558495, "field 'btnMusicVoice'");
+    target.btnMusicVoice = finder.castView(view, 2131558495, "field 'btnMusicVoice'");
+    view = finder.findRequiredView(source, 2131558512, "field 'btnMusicReduce'");
+    target.btnMusicReduce = finder.castView(view, 2131558512, "field 'btnMusicReduce'");
+    view = finder.findRequiredView(source, 2131558511, "field 'btnMusicAdd'");
+    target.btnMusicAdd = finder.castView(view, 2131558511, "field 'btnMusicAdd'");
+    view = finder.findRequiredView(source, 2131558513, "field 'btnMusicByRandom'");
+    target.btnMusicByRandom = finder.castView(view, 2131558513, "field 'btnMusicByRandom'");
+    view = finder.findRequiredView(source, 2131558514, "field 'btnMusicOnlyOne'");
+    target.btnMusicOnlyOne = finder.castView(view, 2131558514, "field 'btnMusicOnlyOne'");
+    view = finder.findRequiredView(source, 2131558515, "field 'btnMusicByList'");
+    target.btnMusicByList = finder.castView(view, 2131558515, "field 'btnMusicByList'");
+    view = finder.findRequiredView(source, 2131558516, "field 'lrcView'");
+    target.lrcView = finder.castView(view, 2131558516, "field 'lrcView'");
+    view = finder.findRequiredView(source, 2131558496, "field 'btnMusicDownload'");
+    target.btnMusicDownload = finder.castView(view, 2131558496, "field 'btnMusicDownload'");
+    view = finder.findRequiredView(source, 2131558497, "field 'btnMusicCollect'");
+    target.btnMusicCollect = finder.castView(view, 2131558497, "field 'btnMusicCollect'");
+    view = finder.findRequiredView(source, 2131558517, "field 'btnMusicSimilarMusic'");
+    target.btnMusicSimilarMusic = finder.castView(view, 2131558517, "field 'btnMusicSimilarMusic'");
+    view = finder.findRequiredView(source, 2131558483, "field 'btnMusicList'");
+    target.btnMusicList = finder.castView(view, 2131558483, "field 'btnMusicList'");
+  }
+
+  @Override public void unbind(T target) {
+    target.ivCurrentMusic = null;
+    target.tvPlayMusicName = null;
+    target.tvSongerName = null;
+    target.btnMusicInterfaceLast = null;
+    target.btnMusicInterfaceNext = null;
+    target.ivBack = null;
+    target.btnMusicVoice = null;
+    target.btnMusicReduce = null;
+    target.btnMusicAdd = null;
+    target.btnMusicByRandom = null;
+    target.btnMusicOnlyOne = null;
+    target.btnMusicByList = null;
+    target.lrcView = null;
+    target.btnMusicDownload = null;
+    target.btnMusicCollect = null;
+    target.btnMusicSimilarMusic = null;
+    target.btnMusicList = null;
+  }
+}

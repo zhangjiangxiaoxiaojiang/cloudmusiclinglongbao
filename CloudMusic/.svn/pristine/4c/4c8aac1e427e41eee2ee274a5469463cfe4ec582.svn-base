@@ -1,0 +1,72 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class MainActivity$$ViewBinder<T extends com.example.administrator.cloudmusic.MainActivity> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558487, "field 'flFragment'");
+    target.flFragment = finder.castView(view, 2131558487, "field 'flFragment'");
+    view = finder.findRequiredView(source, 2131558484, "field 'btnMyMusic'");
+    target.btnMyMusic = finder.castView(view, 2131558484, "field 'btnMyMusic'");
+    view = finder.findRequiredView(source, 2131558483, "field 'btnMusicList'");
+    target.btnMusicList = finder.castView(view, 2131558483, "field 'btnMusicList'");
+    view = finder.findRequiredView(source, 2131558485, "field 'prlInfoSearch'");
+    target.prlInfoSearch = finder.castView(view, 2131558485, "field 'prlInfoSearch'");
+    view = finder.findRequiredView(source, 2131558501, "field 'tvToatlTime'");
+    target.tvToatlTime = finder.castView(view, 2131558501, "field 'tvToatlTime'");
+    view = finder.findRequiredView(source, 2131558500, "field 'tvCurrentTime'");
+    target.tvCurrentTime = finder.castView(view, 2131558500, "field 'tvCurrentTime'");
+    view = finder.findRequiredView(source, 2131558498, "field 'ivMianCurrentMusic'");
+    target.ivMianCurrentMusic = finder.castView(view, 2131558498, "field 'ivMianCurrentMusic'");
+    view = finder.findRequiredView(source, 2131558499, "field 'tvMainCurrentName'");
+    target.tvMainCurrentName = finder.castView(view, 2131558499, "field 'tvMainCurrentName'");
+    view = finder.findRequiredView(source, 2131558488, "field 'sbProgress'");
+    target.sbProgress = finder.castView(view, 2131558488, "field 'sbProgress'");
+    view = finder.findRequiredView(source, 2131558494, "field 'btnMusicNext'");
+    target.btnMusicNext = finder.castView(view, 2131558494, "field 'btnMusicNext'");
+    view = finder.findRequiredView(source, 2131558493, "field 'btnMisicLast'");
+    target.btnMisicLast = finder.castView(view, 2131558493, "field 'btnMisicLast'");
+    view = finder.findRequiredView(source, 2131558491, "field 'btnMusicPlay'");
+    target.btnMusicPlay = finder.castView(view, 2131558491, "field 'btnMusicPlay'");
+    view = finder.findRequiredView(source, 2131558492, "field 'btnMusicPause'");
+    target.btnMusicPause = finder.castView(view, 2131558492, "field 'btnMusicPause'");
+    view = finder.findRequiredView(source, 2131558482, "field 'ivBack'");
+    target.ivBack = finder.castView(view, 2131558482, "field 'ivBack'");
+    view = finder.findRequiredView(source, 2131558497, "field 'btnMusicCollect'");
+    target.btnMusicCollect = finder.castView(view, 2131558497, "field 'btnMusicCollect'");
+    view = finder.findRequiredView(source, 2131558496, "field 'btnMusicDownLoad'");
+    target.btnMusicDownLoad = finder.castView(view, 2131558496, "field 'btnMusicDownLoad'");
+    view = finder.findRequiredView(source, 2131558502, "field 'rlMusicVolumeBar'");
+    target.rlMusicVolumeBar = finder.castView(view, 2131558502, "field 'rlMusicVolumeBar'");
+    view = finder.findRequiredView(source, 2131558503, "field 'vsVolumeSeekbar'");
+    target.vsVolumeSeekbar = finder.castView(view, 2131558503, "field 'vsVolumeSeekbar'");
+    view = finder.findRequiredView(source, 2131558495, "field 'btnMusicVoice'");
+    target.btnMusicVoice = finder.castView(view, 2131558495, "field 'btnMusicVoice'");
+  }
+
+  @Override public void unbind(T target) {
+    target.flFragment = null;
+    target.btnMyMusic = null;
+    target.btnMusicList = null;
+    target.prlInfoSearch = null;
+    target.tvToatlTime = null;
+    target.tvCurrentTime = null;
+    target.ivMianCurrentMusic = null;
+    target.tvMainCurrentName = null;
+    target.sbProgress = null;
+    target.btnMusicNext = null;
+    target.btnMisicLast = null;
+    target.btnMusicPlay = null;
+    target.btnMusicPause = null;
+    target.ivBack = null;
+    target.btnMusicCollect = null;
+    target.btnMusicDownLoad = null;
+    target.rlMusicVolumeBar = null;
+    target.vsVolumeSeekbar = null;
+    target.btnMusicVoice = null;
+  }
+}

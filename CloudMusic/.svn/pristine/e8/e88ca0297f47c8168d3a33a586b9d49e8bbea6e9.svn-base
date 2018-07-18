@@ -1,0 +1,24 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class SearchMainFragment$$ViewBinder<T extends com.example.administrator.cloudmusic.fragment.SearchMainFragment> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558553, "field 'lvHistorySearch'");
+    target.lvHistorySearch = finder.castView(view, 2131558553, "field 'lvHistorySearch'");
+    view = finder.findRequiredView(source, 2131558551, "field 'tvHotSearch'");
+    target.tvHotSearch = finder.castView(view, 2131558551, "field 'tvHotSearch'");
+    view = finder.findRequiredView(source, 2131558552, "field 'btnDeleteAll'");
+    target.btnDeleteAll = finder.castView(view, 2131558552, "field 'btnDeleteAll'");
+  }
+
+  @Override public void unbind(T target) {
+    target.lvHistorySearch = null;
+    target.tvHotSearch = null;
+    target.btnDeleteAll = null;
+  }
+}

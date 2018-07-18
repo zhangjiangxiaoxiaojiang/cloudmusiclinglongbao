@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_music_list.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_music_list.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\my_music_recent_play.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\my_music_recent_play.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\music_input.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\music_input.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\back_click.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\back_click.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_back.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\btn_back.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_more.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_more.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_delete.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_delete.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\back.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\layer_voice_bar.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\layer_voice_bar.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\setting_close.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\setting_close.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_only_one.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_only_one.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_bottom.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_bottom.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\detail_all_play.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\detail_all_play.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\last_song.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\last_song.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_last_song.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\btn_last_song.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_voice_reduce.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_voice_reduce.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_progress.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_progress.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_line.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\list_line.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_voice_add.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_voice_add.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_random.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_random.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\collect.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\collect.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_music_setting.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\bg_music_setting.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\voice_bar_1.9.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\voice_bar_1.9.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\power_amplifier.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\power_amplifier.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\speaker_checked.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\speaker_checked.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\have_collected.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\have_collected.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\music_list_hide.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\music_list_hide.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\speaker.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\speaker.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\search_state.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\search_state.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\core_circle.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\core_circle.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_select_my_music.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\btn_select_my_music.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\suspend.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\suspend.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progress_line.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\progress_line.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_next_song.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\btn_next_song.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\download_background.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\download_background.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\music_list_bottom.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\music_list_bottom.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\search_box.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\search_box.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\loading.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\download.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\download.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progress.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\last_song_click.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\last_song_click.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\all_play.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\all_play.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\voice_btn.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\voice_btn.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_similar_music.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_similar_music.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\editpd.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\editpd.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\speaker_unchecked.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\speaker_unchecked.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\music_setting_line.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\music_setting_line.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\line.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\line.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\have_downloaded.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\have_downloaded.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\logo_beone_home.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\logo_beone_home.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_edit_text.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\bg_edit_text.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\next_song.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\next_song.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_interface_background.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_interface_background.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\voice.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\voice.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progress_thumb.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\progress_thumb.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_circle_background.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_circle_background.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\state_slecte.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\state_slecte.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\search.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\next_song_click.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\next_song_click.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\voice_background.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\voice_background.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\editusr.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\editusr.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\drawable\\play_list.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\drawable\\play_list.png"
+    }
+]

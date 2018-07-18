@@ -1,0 +1,48 @@
+package com.jinxin.cloudmusic.bean.GroupBean;
+
+import com.jinxin.cloudmusic.bean.BaseModel;
+import com.jinxin.cloudmusic.bean.MusicBean.Billboard;
+import com.jinxin.cloudmusic.bean.MusicBean.SongList;
+
+import java.util.List;
+
+/**
+ * Created by ZJ on 2017/3/1 0001.
+ * 榜单
+ */
+public class BillboardList extends BaseModel{
+    private Billboard billboard;
+    private List<SongList> lists;
+
+    public BillboardList() {
+    }
+
+    public BillboardList(Billboard billboard, List<SongList> lists) {
+        this.billboard = billboard;
+        this.lists = lists;
+    }
+
+    public Billboard getBillboard() {
+        return billboard;
+    }
+
+    public void setBillboard(Billboard billboard) {
+        this.billboard = billboard;
+    }
+
+    public List<SongList> getLists() {
+        return lists;
+    }
+
+    public void setLists(List<SongList> lists) {
+        this.lists = lists;
+    }
+
+    @Override
+    public String toString() {
+        return "BillboardList{" +
+                "billboard=" + billboard +
+                ", lists=" + lists +
+                '}';
+    }
+}

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/play_interface_background">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_back"
+        android:scaleType="fitStart"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="3%"
+        app:layout_widthPercent="4%" />
+
+    <LinearLayout
+        android:id="@+id/ll_interface_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        app:layout_marginTopPercent="3%">
+
+        <TextView
+            android:id="@+id/tv_play_music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_28" />
+
+        <TextView
+            android:id="@+id/tv_songer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_25" />
+    </LinearLayout>
+
+    <com.jinxin.cloudmusic.view.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_interface_play"
+        android:orientation="horizontal"
+        app:layout_marginTopPercent="6%">
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="60%">
+
+            <ImageView
+                android:id="@+id/iv_current_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                app:layout_heightPercent="60%" />
+            <!--<ImageView
+                android:id="@+id/iv_current_music_backround"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/play_circle_background"
+                app:layout_heightPercent="60%" />-->
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                app:layout_heightPercent="60%">
+
+                <RelativeLayout
+                    android:id="@+id/rl_circle"
+                    android:layout_width="@dimen/space_60"
+                    android:layout_height="@dimen/space_60"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/core_circle">
+
+                    <Button
+                        android:id="@+id/btn_music_play"
+                        android:layout_width="@dimen/space_30"
+                        android:layout_height="@dimen/space_30"
+                        android:layout_marginTop="@dimen/space_14"
+                        android:layout_marginLeft="@dimen/space_19"
+                        android:background="@drawable/suspend" />
+
+                    <Button
+                        android:id="@+id/btn_music_pause"
+                        android:layout_width="@dimen/space_30"
+                        android:layout_height="@dimen/space_30"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/play"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_music_interface_last"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/space_50"
+                    android:layout_toLeftOf="@id/rl_circle"
+                    android:background="@drawable/btn_last_song"
+                    app:layout_marginRightPercent="5%" />
+
+                <Button
+                    android:id="@+id/btn_music_interface_next"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_50"
+                    android:layout_toRightOf="@id/rl_circle"
+                    android:background="@drawable/btn_next_song"
+                    app:layout_marginLeftPercent="5%" />
+
+                <Button
+                    android:id="@+id/btn_music_add"
+                    android:layout_width="@dimen/space_20"
+                    android:layout_height="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_180"
+                    android:layout_toRightOf="@id/rl_circle"
+                    android:background="@drawable/play_voice_add"
+                    android:visibility="invisible"
+                    app:layout_marginLeftPercent="26%"
+                    app:layout_marginTopPercent="40%" />
+
+                <Button
+                    android:id="@+id/btn_music_reduce"
+                    android:layout_width="@dimen/space_20"
+                    android:layout_height="@dimen/space_20"
+                    android:layout_marginRight="@dimen/space_260"
+                    android:layout_toRightOf="@id/rl_circle"
+                    android:background="@drawable/play_voice_reduce"
+                    android:visibility="invisible"
+                    app:layout_marginLeftPercent="15%"
+                    app:layout_marginTopPercent="40%" />
+
+                <Button
+                    android:id="@+id/btn_music_voice"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/space_180"
+                    android:layout_toRightOf="@id/rl_circle"
+                    android:background="@drawable/voice"
+                    app:layout_marginLeftPercent="20%" />
+
+                <Button
+                    android:id="@+id/btn_music_by_random"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/btn_music_interface_last"
+                    android:background="@drawable/play_random"
+                    android:visibility="invisible"
+                    app:layout_marginRightPercent="10%" />
+
+                <Button
+                    android:id="@+id/btn_music_only_one"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/btn_music_interface_last"
+                    android:background="@drawable/play_only_one"
+                    android:visibility="invisible"
+                    app:layout_marginRightPercent="10%" />
+
+                <Button
+                    android:id="@+id/btn_music_by_list"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/btn_music_interface_last"
+                    android:background="@drawable/play_list"
+                    app:layout_marginRightPercent="10%" />
+
+                <SeekBar
+                    android:id="@+id/sb_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:maxHeight="@dimen/space_2"
+                    android:progressDrawable="@drawable/progress"
+                    android:thumb="@drawable/progress_thumb"
+                    app:layout_marginTopPercent="70%"
+                    app:layout_widthPercent="80%" />
+
+
+            </android.support.percent.PercentRelativeLayout>
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="40%">
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_heightPercent="80%">
+
+                <com.jinxin.cloudmusic.util.lrcview.LrcView
+                    android:id="@+id/lrc_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_300"
+                    app:lrcAnimationDuration="1000"
+                    app:lrcCurrentTextColor="#2e97ee"
+                    app:lrcDividerHeight="@dimen/space_38"
+                    app:lrcLabel="@string/no_lrc"
+                    app:lrcNormalTextColor="#cccccc"
+                    app:lrcPadding="@dimen/space_16"
+                    app:lrcTextSize="@dimen/text_17" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                app:layout_heightPercent="30%">
+
+                <Button
+                    android:id="@+id/btn_music_download"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/rl_circle"
+                    android:background="@drawable/download"
+                    app:layout_marginLeftPercent="3%" />
+
+                <Button
+                    android:id="@+id/btn_music_collect"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_50"
+                    android:layout_toRightOf="@id/btn_music_download"
+                    android:background="@drawable/collect"
+                    app:layout_marginLeftPercent="18%" />
+
+                <Button
+                    android:id="@+id/btn_music_similar_music"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_50"
+                    android:layout_toRightOf="@id/btn_music_collect"
+                    android:background="@drawable/play_similar_music"
+                    app:layout_marginLeftPercent="18%" />
+
+                <Button
+                    android:id="@+id/btn_music_list"
+                    android:layout_width="@dimen/space_30"
+                    android:layout_height="@dimen/space_30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_50"
+                    android:layout_toRightOf="@id/btn_music_similar_music"
+                    android:background="@drawable/play_music_list"
+                    app:layout_marginLeftPercent="18%" />
+            </android.support.percent.PercentRelativeLayout>
+        </android.support.percent.PercentRelativeLayout>
+    </com.jinxin.cloudmusic.view.PercentLinearLayout>
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="00:00"
+        android:textSize="@dimen/text_20"
+        android:textColor="@color/darkgrey"
+        app:layout_marginRightPercent="42%"
+        app:layout_marginTopPercent="80%" />
+
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="00:00"
+        android:textSize="@dimen/text_20"
+        android:textColor="@color/darkgrey"
+        app:layout_marginLeftPercent="2%"
+        app:layout_marginTopPercent="80%" />
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_300">
+
+    <TextView
+        android:id="@+id/tv_my_music_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="@dimen/text_30"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/text_20" />
+
+    <TextView
+        android:id="@+id/tv_my_music_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_my_music_num"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/text_20" />
+
+    <TextView
+        android:id="@+id/tv_my_music_songer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_my_music_name"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:textSize="@dimen/text_20" />
+
+    <TextView
+        android:id="@+id/tv_my_music_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text=""
+        android:layout_marginRight="@dimen/text_30"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/text_20" />
+</RelativeLayout>

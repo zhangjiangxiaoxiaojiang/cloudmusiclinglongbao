@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_history_search.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_history_search.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_viewpager.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.bigkoo\\convenientbanner\\2.0.5\\res\\layout\\include_viewpager.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\fra_music_search.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\fra_music_search.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_login.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_music_setting_detail.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_music_setting_detail.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\loading_layout.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\loading_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_fr_my_music.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_fr_my_music.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_my_music_left_category.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_my_music_left_category.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\fr_music_list_detail.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\fr_music_list_detail.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_music_setting.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\fragment_music_setting.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_search_main.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\fragment_search_main.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_search_deatil.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\fragment_search_deatil.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\toast.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\toast.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_home_page_music_list.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_home_page_music_list.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_my_music_collect.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_my_music_collect.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_my_music_detail.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_my_music_detail.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_music_type_list_detail.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_music_type_list_detail.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_play_interface.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\activity_play_interface.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_gv_music_list.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_gv_music_list.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\fr_my_music.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\fr_my_music.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_music_list.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\layout\\item_music_list.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    }
+]

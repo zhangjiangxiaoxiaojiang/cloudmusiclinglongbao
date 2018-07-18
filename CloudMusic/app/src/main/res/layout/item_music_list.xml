@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_250"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/item_notice_catalog_layout">
+
+    <ImageView
+        android:id="@+id/iv_music_list_icon"
+        android:layout_width="@dimen/space_100"
+        android:layout_height="@dimen/space_100"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/tv_music_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/space_20"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_marginStart="@dimen/space_20"
+        android:text="@string/new_song_list"
+        android:layout_toRightOf="@id/iv_music_list_icon"
+        />
+    <ListView
+        android:id="@+id/lv_music_list"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/space_80"
+
+        android:divider="#00000000"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_marginStart="@dimen/space_20"
+        android:layout_toEndOf="@id/iv_music_list_icon"
+        android:layout_toRightOf="@id/iv_music_list_icon"
+        android:layout_below="@id/tv_music_list_name"
+        android:layout_marginTop="@dimen/space_5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_22"
+        />
+
+
+</RelativeLayout>

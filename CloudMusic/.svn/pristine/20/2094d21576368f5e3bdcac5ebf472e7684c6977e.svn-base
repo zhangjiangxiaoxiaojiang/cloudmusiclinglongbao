@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_60">
+
+    <TextView
+        android:id="@+id/tv_my_music_download_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/text_30"
+        android:textSize="@dimen/text_30" />
+
+    <TextView
+        android:id="@+id/tv_my_music_download_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_toRightOf="@id/tv_my_music_download_num"
+        android:textSize="@dimen/text_30" />
+
+    <TextView
+        android:id="@+id/tv_my_music_download_songer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_toRightOf="@id/tv_my_music_download_name"
+        android:textSize="@dimen/text_25" />
+
+    <ImageView
+        android:id="@+id/iv_my_music_download"
+        android:layout_width="@dimen/space_40"
+        android:layout_height="@dimen/space_40"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/text_30"
+        android:src="@drawable/download" />
+</RelativeLayout>

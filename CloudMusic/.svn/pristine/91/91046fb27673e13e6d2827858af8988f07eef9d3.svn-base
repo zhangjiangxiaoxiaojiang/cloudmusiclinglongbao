@@ -1,0 +1,36 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class MusicListDetailFragment$$ViewBinder<T extends com.example.administrator.cloudmusic.fragment.MusicListDetailFragment> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558527, "field 'lvMusicListDetail'");
+    target.lvMusicListDetail = finder.castView(view, 2131558527, "field 'lvMusicListDetail'");
+    view = finder.findRequiredView(source, 2131558520, "field 'ivMyMusicDetail'");
+    target.ivMyMusicDetail = finder.castView(view, 2131558520, "field 'ivMyMusicDetail'");
+    view = finder.findRequiredView(source, 2131558521, "field 'tvMyMusicType'");
+    target.tvMyMusicType = finder.castView(view, 2131558521, "field 'tvMyMusicType'");
+    view = finder.findRequiredView(source, 2131558522, "field 'tvMyMusicIntroduce'");
+    target.tvMyMusicIntroduce = finder.castView(view, 2131558522, "field 'tvMyMusicIntroduce'");
+    view = finder.findRequiredView(source, 2131558526, "field 'btAllCollection'");
+    target.btAllCollection = finder.castView(view, 2131558526, "field 'btAllCollection'");
+    view = finder.findRequiredView(source, 2131558525, "field 'btAllDownload'");
+    target.btAllDownload = finder.castView(view, 2131558525, "field 'btAllDownload'");
+    view = finder.findRequiredView(source, 2131558524, "field 'btAllPlay'");
+    target.btAllPlay = finder.castView(view, 2131558524, "field 'btAllPlay'");
+  }
+
+  @Override public void unbind(T target) {
+    target.lvMusicListDetail = null;
+    target.ivMyMusicDetail = null;
+    target.tvMyMusicType = null;
+    target.tvMyMusicIntroduce = null;
+    target.btAllCollection = null;
+    target.btAllDownload = null;
+    target.btAllPlay = null;
+  }
+}

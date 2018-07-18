@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_my_music_category"
+    android:layout_height="@dimen/space_300">
+
+    <ImageView
+        android:id="@+id/iv_my_music_category"
+        android:layout_width="@dimen/space_30"
+        android:layout_height="@dimen/space_30"
+        android:layout_marginTop="@dimen/space_25"
+        android:layout_marginLeft="@dimen/space_20"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/my_music_recent_play" />
+
+    <TextView
+        android:id="@+id/tv_my_music_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_toRightOf="@+id/iv_my_music_category"
+        android:text="@string/recent_play"
+        android:textSize="@dimen/text_20" />
+
+    <TextView
+        android:id="@+id/tv_my_music_num_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_toRightOf="@+id/tv_my_music_category"
+        android:text=""
+        android:textSize="@dimen/text_20" />
+</RelativeLayout>

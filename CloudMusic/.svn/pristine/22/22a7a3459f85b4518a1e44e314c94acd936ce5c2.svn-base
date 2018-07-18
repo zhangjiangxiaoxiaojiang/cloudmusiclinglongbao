@@ -1,0 +1,27 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic.activity;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class SearchFragment$$ViewBinder<T extends com.example.administrator.cloudmusic.activity.SearchFragment> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558531, "field 'etInfoText'");
+    target.etInfoText = finder.castView(view, 2131558531, "field 'etInfoText'");
+    view = finder.findRequiredView(source, 2131558533, "field 'btnSearch'");
+    target.btnSearch = finder.castView(view, 2131558533, "field 'btnSearch'");
+    view = finder.findRequiredView(source, 2131558482, "field 'ivBack'");
+    target.ivBack = finder.castView(view, 2131558482, "field 'ivBack'");
+    view = finder.findRequiredView(source, 2131558532, "field 'ivSearchDelete'");
+    target.ivSearchDelete = finder.castView(view, 2131558532, "field 'ivSearchDelete'");
+  }
+
+  @Override public void unbind(T target) {
+    target.etInfoText = null;
+    target.btnSearch = null;
+    target.ivBack = null;
+    target.ivSearchDelete = null;
+  }
+}

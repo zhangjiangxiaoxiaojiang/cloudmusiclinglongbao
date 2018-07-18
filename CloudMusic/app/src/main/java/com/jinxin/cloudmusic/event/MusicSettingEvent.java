@@ -1,0 +1,20 @@
+package com.jinxin.cloudmusic.event;
+
+/**
+ * Created by ZJ on 2017/4/14 0014.
+ */
+public class MusicSettingEvent {
+    private int pos;
+
+    public MusicSettingEvent(int pos) {
+        this.pos = pos;
+    }
+
+    public int getPos() {
+        return pos;
+    }
+
+    public void setPos(int pos) {
+        this.pos = pos;
+    }
+}

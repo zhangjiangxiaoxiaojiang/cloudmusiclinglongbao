@@ -1,0 +1,27 @@
+// Generated code from Butter Knife. Do not modify!
+package com.example.administrator.cloudmusic.fragment;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class SearchDeatilFragment$$ViewBinder<T extends com.example.administrator.cloudmusic.fragment.SearchDeatilFragment> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131558550, "field 'lvSearchDetail'");
+    target.lvSearchDetail = finder.castView(view, 2131558550, "field 'lvSearchDetail'");
+    view = finder.findRequiredView(source, 2131558545, "field 'ivArtist'");
+    target.ivArtist = finder.castView(view, 2131558545, "field 'ivArtist'");
+    view = finder.findRequiredView(source, 2131558547, "field 'tvSearchName'");
+    target.tvSearchName = finder.castView(view, 2131558547, "field 'tvSearchName'");
+    view = finder.findRequiredView(source, 2131558548, "field 'tvSearchArtist'");
+    target.tvSearchArtist = finder.castView(view, 2131558548, "field 'tvSearchArtist'");
+  }
+
+  @Override public void unbind(T target) {
+    target.lvSearchDetail = null;
+    target.ivArtist = null;
+    target.tvSearchName = null;
+    target.tvSearchArtist = null;
+  }
+}

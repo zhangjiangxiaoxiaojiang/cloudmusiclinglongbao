@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\demo\\CloudMusic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\icon.png",
+        "source": "D:\\demo\\CloudMusic\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    }
+]

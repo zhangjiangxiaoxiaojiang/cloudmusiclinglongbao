@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">云音乐</string>
+
+    //首页
+    <string name="music_list">榜单音乐</string>
+    <string name="my_music">我的音乐</string>
+    <string name="search">搜索</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="history_search">历史搜索</string>
+    <string name="delect_all">清空</string>
+    <string name="search_all">搜索歌曲、歌手</string>
+    <string name="download_music">下载音乐</string>
+    <string name="collection_music">收藏音乐</string>
+    <string name="recent_play">最近播放</string>
+    <string name="no_lrc">找不到歌词(&gt;_&lt;)</string>
+    <string name="collection">收藏</string>
+    <string name="more_setting">更多设置</string>
+    <string name="complete">完成</string>
+    <string name="single_song">单曲</string>
+    <string name="songer">歌手</string>
+    <string name="music_name">歌曲名字</string>
+    <string name="new_song_list">新歌榜</string>
+    <string name="sure">确定</string>
+    <string name="password">密码</string>
+    <string name="account">帐号</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
